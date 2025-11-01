@@ -1,0 +1,317 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Tiago Vilas Boas — Signature Offers</title>
+  <meta name="description" content="I design ecosystems where strategy, brand, and execution move as one, unlocking trust and scale across the enterprise." />
+  <meta property="og:title" content="Tiago Vilas Boas — Signature Offers" />
+  <meta property="og:description" content="I design ecosystems where strategy, brand, and execution move as one." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://example.com" />
+  <meta property="og:image" content="/og.png" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='0.9em' font-size='90'>🧭</text></svg>">
+  <!-- Tailwind CSS via CDN for speed of setup -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    html { scroll-behavior: smooth; }
+  </style>
+</head>
+<body class="bg-white text-neutral-900">
+  <!-- Top bar -->
+  <header class="sticky top-0 z-50 bg-white/80 backdrop-blur border-b border-neutral-200">
+    <div class="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
+      <a href="#home" class="font-semibold tracking-tight">Tiago Vilas Boas</a>
+      <nav class="hidden md:flex gap-6 text-sm">
+        <a href="#services" class="hover:text-neutral-700">Offers</a>
+        <a href="#about" class="hover:text-neutral-700">About</a>
+        <a href="#cases" class="hover:text-neutral-700">Case Studies</a>
+        <a href="#insights" class="hover:text-neutral-700">Insights</a>
+        <a href="#contact" class="hover:text-neutral-700">Contact</a>
+      </nav>
+      <div class="flex items-center gap-3">
+        <a href="#contact" class="hidden sm:inline-block rounded-xl bg-neutral-900 text-white text-sm px-4 py-2 hover:bg-neutral-800">Book a call</a>
+        <button id="menuBtn" class="md:hidden p-2 rounded-lg border border-neutral-200" aria-label="Open Menu">☰</button>
+      </div>
+    </div>
+    <!-- Mobile menu -->
+    <div id="mobileMenu" class="md:hidden hidden border-t border-neutral-200">
+      <div class="max-w-6xl mx-auto px-4 py-2 flex flex-col gap-2 text-sm">
+        <a href="#services" class="py-2">Offers</a>
+        <a href="#about" class="py-2">About</a>
+        <a href="#cases" class="py-2">Case Studies</a>
+        <a href="#insights" class="py-2">Insights</a>
+        <a href="#contact" class="py-2">Contact</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section id="home" class="relative overflow-hidden">
+    <div class="max-w-6xl mx-auto px-4 pt-16 pb-10 grid md:grid-cols-2 gap-10 items-center">
+      <div>
+        <h1 class="text-3xl md:text-5xl font-semibold leading-tight">I design ecosystems where strategy, brand, and execution move as one.</h1>
+        <p class="mt-4 text-neutral-700 text-lg">The result: trust at scale, faster decisions, and operations that actually work in the real world.</p>
+        <div class="mt-6 flex gap-3">
+          <a href="#services" class="rounded-xl border border-neutral-300 px-4 py-2">Explore offers</a>
+          <a href="#contact" class="rounded-xl bg-neutral-900 text-white px-4 py-2">Book a call</a>
+        </div>
+        <p class="mt-6 text-sm text-neutral-500">Based in Switzerland. Working with global teams.</p>
+      </div>
+      <div class="flex justify-center md:justify-end">
+        <div class="relative w-64 h-64 md:w-80 md:h-80 rounded-2xl overflow-hidden shadow-sm border border-neutral-200">
+          <!-- Replace headshot.jpg in Replit Files -->
+          <img src="headshot.jpg" alt="Tiago Vilas Boas" class="w-full h-full object-cover" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Signature Offers -->
+  <section id="services" class="py-16 border-t border-neutral-200 bg-neutral-50">
+    <div class="max-w-6xl mx-auto px-4">
+      <h2 class="text-2xl md:text-3xl font-semibold">Signature Offers</h2>
+      <p class="mt-2 text-neutral-600 max-w-3xl">These are high-impact, time-bound engagements designed for leaders who want outcomes, not theory.</p>
+
+      <div class="mt-8 grid md:grid-cols-2 gap-6">
+        <!-- Governance Blueprint -->
+        <article class="rounded-2xl bg-white border border-neutral-200 p-6">
+          <h3 class="text-xl font-semibold">The Governance Blueprint™</h3>
+          <p class="mt-2 text-neutral-700">I embed brand, content, and compliance standards into your tools, workflows, and templates so governance becomes invisible, adoption natural.</p>
+          <ul class="mt-4 text-sm text-neutral-600 list-disc pl-5 space-y-1">
+            <li>Who: CMOs and Comms leaders scaling globally</li>
+            <li>Outcome: consistency without bureaucracy</li>
+            <li>Format: discovery, blueprint, wiring, enablement</li>
+          </ul>
+          <div class="mt-5 flex gap-3">
+            <a href="#contact" class="rounded-lg bg-neutral-900 text-white text-sm px-4 py-2">Book a call</a>
+            <a href="#contact" class="rounded-lg border border-neutral-300 text-sm px-4 py-2">Request one-pager</a>
+          </div>
+        </article>
+
+        <!-- Adoption-as-a-Service -->
+        <article class="rounded-2xl bg-white border border-neutral-200 p-6">
+          <h3 class="text-xl font-semibold">Adoption-as-a-Service™</h3>
+          <p class="mt-2 text-neutral-700">An ongoing enablement program. I turn platforms and processes into habits using live training, playbooks, certifications, and cultural nudges.</p>
+          <ul class="mt-4 text-sm text-neutral-600 list-disc pl-5 space-y-1">
+            <li>Who: enterprise leaders tired of shelfware</li>
+            <li>Outcome: measurable adoption and usage</li>
+            <li>Format: quarterly cycles, metrics, reinforcement</li>
+          </ul>
+          <div class="mt-5 flex gap-3">
+            <a href="#contact" class="rounded-lg bg-neutral-900 text-white text-sm px-4 py-2">Book a call</a>
+            <a href="#contact" class="rounded-lg border border-neutral-300 text-sm px-4 py-2">Request one-pager</a>
+          </div>
+        </article>
+
+        <!-- M&A Lab -->
+        <article class="rounded-2xl bg-white border border-neutral-200 p-6">
+          <h3 class="text-xl font-semibold">M&A Brand Integration Lab™</h3>
+          <p class="mt-2 text-neutral-700">A time-boxed war room for aligning brand, governance, and content operations during M&A or major transitions. Fast clarity, confident execution.</p>
+          <ul class="mt-4 text-sm text-neutral-600 list-disc pl-5 space-y-1">
+            <li>Who: executives navigating billion-euro shifts</li>
+            <li>Outcome: stability with speed</li>
+            <li>Format: frameworks, decisions, execution plans</li>
+          </ul>
+          <div class="mt-5 flex gap-3">
+            <a href="#contact" class="rounded-lg bg-neutral-900 text-white text-sm px-4 py-2">Book a call</a>
+            <a href="#contact" class="rounded-lg border border-neutral-300 text-sm px-4 py-2">Request one-pager</a>
+          </div>
+        </article>
+
+        <!-- Executive Shadow Partner -->
+        <article class="rounded-2xl bg-white border border-neutral-200 p-6">
+          <h3 class="text-xl font-semibold">Executive Shadow Partner™</h3>
+          <p class="mt-2 text-neutral-700">A discreet advisory seat next to you. Enterprise-tested frameworks, clear answers, and hands-on help on brand, operations, and digital transformation.</p>
+          <ul class="mt-4 text-sm text-neutral-600 list-disc pl-5 space-y-1">
+            <li>Who: C-Suite leaders</li>
+            <li>Outcome: better decisions, fewer cycles</li>
+            <li>Format: retainer with defined cadences</li>
+          </ul>
+          <div class="mt-5 flex gap-3">
+            <a href="#contact" class="rounded-lg bg-neutral-900 text-white text-sm px-4 py-2">Book a call</a>
+            <a href="#contact" class="rounded-lg border border-neutral-300 text-sm px-4 py-2">Request one-pager</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="py-16">
+    <div class="max-w-6xl mx-auto px-4 grid md:grid-cols-2 gap-10 items-start">
+      <div>
+        <h2 class="text-2xl md:text-3xl font-semibold">About</h2>
+        <p class="mt-4 text-neutral-700 leading-relaxed">I build balanced systems where strategy, brand, and execution move together. I have led enterprise rollouts, governed complex taxonomies, and turned big programs into simple daily habits. I work with leaders who want clarity and results.</p>
+        <p class="mt-4 text-neutral-700">You get straight talk, clean frameworks, and working deliverables. No fluff.</p>
+        <div class="mt-6">
+          <a href="#contact" class="rounded-xl bg-neutral-900 text-white px-4 py-2">Book a call</a>
+        </div>
+      </div>
+      <ul class="space-y-3 text-neutral-700">
+        <li class="p-4 border border-neutral-200 rounded-xl">Proof: global content operations programs delivered</li>
+        <li class="p-4 border border-neutral-200 rounded-xl">Proof: enterprise taxonomy and governance adopted</li>
+        <li class="p-4 border border-neutral-200 rounded-xl">Proof: platform migrations with real team adoption</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Case Studies -->
+  <section id="cases" class="py-16 border-t border-neutral-200 bg-neutral-50">
+    <div class="max-w-6xl mx-auto px-4">
+      <h2 class="text-2xl md:text-3xl font-semibold">Case Studies</h2>
+      <p class="mt-2 text-neutral-600">Short snapshots. Clear outcomes.</p>
+      <div class="mt-8 grid md:grid-cols-3 gap-6">
+        <!-- Placeholder cards: replace with real stories -->
+        <article class="rounded-2xl bg-white border border-neutral-200 p-6">
+          <h3 class="font-semibold">Content Ops Reset</h3>
+          <p class="mt-2 text-sm text-neutral-700">Cut cycle time and created a single source of truth across web, brand, and content teams.</p>
+          <p class="mt-3 text-xs text-neutral-500">Result: faster approvals, higher quality.</p>
+        </article>
+        <article class="rounded-2xl bg-white border border-neutral-200 p-6">
+          <h3 class="font-semibold">Governance that Scales</h3>
+          <p class="mt-2 text-sm text-neutral-700">Wired metadata and templates into tools so teams naturally follow standards.</p>
+          <p class="mt-3 text-xs text-neutral-500">Result: consistency without policing.</p>
+        </article>
+        <article class="rounded-2xl bg-white border border-neutral-200 p-6">
+          <h3 class="font-semibold">Adoption Program</h3>
+          <p class="mt-2 text-sm text-neutral-700">Live enablement, certification, and role playbooks that turned a platform into a habit.</p>
+          <p class="mt-3 text-xs text-neutral-500">Result: real usage, measurable impact.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Insights -->
+  <section id="insights" class="py-16">
+    <div class="max-w-6xl mx-auto px-4">
+      <h2 class="text-2xl md:text-3xl font-semibold">Insights</h2>
+      <p class="mt-2 text-neutral-600">Notes and frameworks I use in the field.</p>
+      <div class="mt-6 grid md:grid-cols-3 gap-6">
+        <article class="p-6 border border-neutral-200 rounded-2xl">
+          <h3 class="font-semibold">The Adoption Ladder</h3>
+          <p class="mt-2 text-sm text-neutral-700">A simple way to move teams from awareness to habit using lightweight rituals.</p>
+        </article>
+        <article class="p-6 border border-neutral-200 rounded-2xl">
+          <h3 class="font-semibold">Governance Without Friction</h3>
+          <p class="mt-2 text-sm text-neutral-700">How to bake standards into the work so compliance feels invisible.</p>
+        </article>
+        <article class="p-6 border border-neutral-200 rounded-2xl">
+          <h3 class="font-semibold">The M&A Decision Stack</h3>
+          <p class="mt-2 text-sm text-neutral-700">The four calls to make early so the brand stays coherent under pressure.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="py-16 border-t border-neutral-200 bg-neutral-50">
+    <div class="max-w-6xl mx-auto px-4">
+      <h2 class="text-2xl md:text-3xl font-semibold">Contact</h2>
+      <p class="mt-2 text-neutral-600">Short and simple. Tell me what you want to achieve and when.</p>
+
+      <div class="mt-6 grid md:grid-cols-2 gap-6 items-start">
+        <!-- Mailto form builds an email draft -->
+        <form id="mailtoForm" class="rounded-2xl bg-white border border-neutral-200 p-6 space-y-4">
+          <div>
+            <label class="block text-sm text-neutral-700">Your name</label>
+            <input type="text" id="fName" class="mt-1 w-full border border-neutral-300 rounded-lg px-3 py-2" required />
+          </div>
+          <div>
+            <label class="block text-sm text-neutral-700">Your email</label>
+            <input type="email" id="fEmail" class="mt-1 w-full border border-neutral-300 rounded-lg px-3 py-2" required />
+          </div>
+          <div>
+            <label class="block text-sm text-neutral-700">What are you trying to solve?</label>
+            <textarea id="fMsg" rows="4" class="mt-1 w-full border border-neutral-300 rounded-lg px-3 py-2" placeholder="Two lines is enough." required></textarea>
+          </div>
+          <button type="submit" class="w-full rounded-lg bg-neutral-900 text-white px-4 py-2">Open email draft</button>
+          <p class="text-xs text-neutral-500">This opens your email client to tiago.vilasboas@outlook.com. No data is stored.</p>
+        </form>
+
+        <!-- Calendar embed placeholder -->
+        <div class="rounded-2xl bg-white border border-neutral-200 p-6">
+          <h3 class="font-semibold">Prefer to book directly?</h3>
+          <p class="mt-2 text-sm text-neutral-700">Embed your calendar here. Replace the iframe src with your Calendly or Cal.com link.</p>
+          <div class="mt-4 aspect-video w-full border border-dashed border-neutral-300 rounded-xl grid place-items-center text-neutral-500 text-sm">
+            <span>Calendar embed placeholder</span>
+          </div>
+          <!-- Example: 
+          <iframe src="https://cal.com/your-handle?embed" class="w-full h-[700px]" frameborder="0"></iframe>
+          -->
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="py-10">
+    <div class="max-w-6xl mx-auto px-4 grid md:grid-cols-3 gap-6 text-sm">
+      <div>
+        <p class="font-semibold">Tiago Vilas Boas</p>
+        <p class="mt-2 text-neutral-600">Switzerland • Working globally</p>
+        <p class="mt-2"><a href="mailto:tiago.vilasboas@outlook.com" class="underline">tiago.vilasboas@outlook.com</a></p>
+      </div>
+      <nav class="space-y-2">
+        <a href="#services" class="block">Offers</a>
+        <a href="#about" class="block">About</a>
+        <a href="#cases" class="block">Case Studies</a>
+        <a href="#insights" class="block">Insights</a>
+        <a href="#contact" class="block">Contact</a>
+      </nav>
+      <div>
+        <a href="#privacy" class="block">Privacy Policy</a>
+        <a href="#terms" class="block">Terms</a>
+      </div>
+    </div>
+    <div class="max-w-6xl mx-auto px-4 mt-6 text-xs text-neutral-500">© <span id="year"></span> Tiago Vilas Boas. All rights reserved.</div>
+  </footer>
+
+  <!-- Legal sections -->
+  <section id="privacy" class="py-16 border-t border-neutral-200">
+    <div class="max-w-3xl mx-auto px-4">
+      <h2 class="text-2xl font-semibold">Privacy Policy</h2>
+      <p class="mt-4 text-neutral-700">I do not use cookies on this site. If you email me or submit information via your email client, I will use it only to respond to your inquiry. Your data is not shared with third parties. If you want your information deleted, contact me at the email above.</p>
+      <p class="mt-4 text-neutral-700">For calendar bookings, your provider’s privacy terms apply. For analytics, if later enabled, I will use a privacy-friendly, cookie-free solution and update this notice.</p>
+    </div>
+  </section>
+
+  <section id="terms" class="py-16 border-t border-neutral-200">
+    <div class="max-w-3xl mx-auto px-4">
+      <h2 class="text-2xl font-semibold">Terms</h2>
+      <p class="mt-4 text-neutral-700">All work is delivered under a simple MSA and individual statements of work. Materials are confidential and may not be redistributed without permission. Nothing on this site is professional legal advice.</p>
+    </div>
+  </section>
+
+  <script>
+    // Mobile menu toggle
+    const menuBtn = document.getElementById('menuBtn');
+    const mobileMenu = document.getElementById('mobileMenu');
+    menuBtn?.addEventListener('click', () => mobileMenu.classList.toggle('hidden'));
+
+    // Year in footer
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    // Mailto builder
+    const form = document.getElementById('mailtoForm');
+    form?.addEventListener('submit', (e) => {
+      e.preventDefault();
+      const name = encodeURIComponent(document.getElementById('fName').value.trim());
+      const email = encodeURIComponent(document.getElementById('fEmail').value.trim());
+      const msg = encodeURIComponent(document.getElementById('fMsg').value.trim());
+      const subject = `Inquiry from ${decodeURIComponent(name)}`;
+      const body = `Name: ${decodeURIComponent(name)}%0AEmail: ${decodeURIComponent(email)}%0A%0A${msg}`;
+      const href = `mailto:tiago.vilasboas@outlook.com?subject=${encodeURIComponent(subject)}&body=${body}`;
+      window.location.href = href;
+    });
+  </script>
+
+  <!--
+    To do after import into Replit:
+    1) Add your headshot as headshot.jpg to the project root.
+    2) If you want OG sharing cards, add og.png to the project root.
+    3) Replace the calendar embed placeholder with your real Calendly or Cal.com link.
+    4) If you later add analytics, use a cookie-free option like Plausible and paste the script before </body>.
+  -->
+</body>
+</html>
